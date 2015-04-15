@@ -1,19 +1,16 @@
-#/.gitignore
-#.project
-#.classpath
-.settings/
-build.properties
-build.xml
-default.properties
-local.properties
-bin/
+*.apk
+*.ap_
+*.dex
+*.class
+
 gen/
-res/values/dropbox.xml
-proguard.cfg
+bin/
 
+.gradle/
+build/
 
-# IntelliJ Idea/Android Studio files
-*.iml
-*.ipr
-*.iws
-.idea/
+local.properties
+.idea/workspace.xml
+.idea/libraries
+.DS_Store
+*.log
